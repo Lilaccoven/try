@@ -1,0 +1,84 @@
+/* General Styling for the Page */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+  font-weight: bold;
+  color: #333 !important;
+}
+
+/* Hero Section */
+.contact-hero {
+  background-color: #C7E9C0;
+  border-radius: 15px;
+  padding: 40px 20px;
+  margin-bottom: 30px;
+}
+
+.contact-hero h1 {
+  font-size: 3rem;
+  color: #2d2d2d;
+}
+
+.contact-hero p {
+  font-size: 1.25rem;
+  color: #4c4c4c;
+  margin-top: 10px;
+}
+
+/* Contact Form Section */
+.contact-form-section {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form .form-control {
+  border-radius: 10px;
+  border: 1px dashed #C7E9C0;
+  transition: border-color 0.3s ease;
+}
+
+.contact-form .form-control:focus {
+  border-color: #4CAF50;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+}
+
+.contact-form .btn-primary {
+  background-color: #4CAF50;
+  border: none;
+  padding: 10px 30px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form .btn-primary:hover {
+  background-color: #388e3c;
+}
+
+/* Footer */
+footer {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer a {
+  color: #388e3c;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

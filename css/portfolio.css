@@ -1,0 +1,98 @@
+/* General Styling for the Page */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+  font-weight: bold;
+  color: #333 !important;
+}
+
+/* Hero Section for Portfolio */
+.portfolio-hero {
+  background-color: #C7E9C0;
+  border-radius: 15px;
+  padding: 40px 20px;
+  margin-bottom: 30px;
+}
+
+.portfolio-hero h1 {
+  font-size: 3rem;
+  color: #2d2d2d;
+}
+
+.portfolio-hero p {
+  font-size: 1.25rem;
+  color: #4c4c4c;
+  margin-top: 10px;
+}
+
+.portfolio-title-border {
+  display: inline-block;
+  padding: 15px 30px;
+  border: 3px dashed #C7E9C0;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+/* Portfolio Section */
+.portfolio-section {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-item {
+  background-color: #f9f9f9;
+  border: 2px solid #C7E9C0;
+  border-radius: 10px;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio-item img {
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+.portfolio-item h4 {
+  margin-top: 15px;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.portfolio-item p {
+  font-size: 1rem;
+  color: #333;
+  margin-top: 10px;
+}
+
+.portfolio-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer a {
+  color: #388e3c;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

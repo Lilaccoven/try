@@ -1,0 +1,166 @@
+/* Body background with green color and blur effect */
+body {
+  background-color: #C7E9C0; /* Green color */
+  position: relative;
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif; /* Default font */
+}
+
+/* Pseudo-element for blurred background */
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #C7E9C0; /* Green color */
+  filter: blur(10px); /* Apply blur effect to the background */
+  z-index: -1; /* Place the blur behind the content */
+}
+
+/* Navigation Bar Styling */
+.navbar {
+  background-color: #ffffff;
+  padding: 20px 0;
+}
+
+.navbar-brand {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: #2d3e50;
+}
+
+.nav-link {
+  font-size: 18px;
+  color: #2d3e50;
+  padding: 8px 20px;
+}
+
+.nav-link:hover {
+  color: #FF7A00; /* Change to your desired hover color */
+}
+
+/* Large pink rectangle with background image */
+.large-rectangle {
+  background-color: #A5D8A5; /* Light green background */
+  height: 400px;
+  /* background-image: url('img/your-image.jpg'); */ /* Optional */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  z-index: 1;
+  border: 5px dashed #fff; /* 🔶 Dashed white border */
+  border-radius: 15px;
+}
+
+}
+
+/* Image container with cracked effect */
+.img-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
+/* Image styling with a thicker dashed white border */
+.img-fluid {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 1;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  border: 5px dashed #fff; /* White dashed border, thicker */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Adds a shadow effect */
+  padding: 5px; /* Adds spacing between the image and border */
+}
+
+/* Hover effect for images */
+.img-fluid:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
+}
+
+/* Cracked background overlay for images */
+.img-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('images/cracked-texture.png'); /* Path to your cracked texture image */
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  opacity: 0.7; /* Semi-transparent cracked background */
+  z-index: 0; /* Behind the image */
+}
+
+/* Left-side image alignment */
+.d-flex {
+  gap: 10px; /* Reduces space between the images */
+}
+
+/* Description section (on the right of the images) */
+.description-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Light shadow */
+  border: 5px solid #fff; /* Add border similar to home page */
+  background-image: linear-gradient(to bottom, #ffffff, #f1f1f1); /* Gradient background for subtle effect */
+}
+
+/* About Me Text */
+.description-container h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  color: #FF7A00;
+}
+
+.description-container p {
+  font-size: 16px;
+  color: #2d3e50;
+  line-height: 1.6;
+}
+
+/* Modal content styling */
+.modal-content {
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.modal-content h5 {
+  font-weight: bold;
+}
+
+.modal-content p {
+  font-size: 15px;
+}
+
+/* Additional spacing for the page layout */
+.container {
+  padding: 40px;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  .description-container {
+    margin-top: 20px;
+  }
+  .description-container h3 {
+    font-size: 24px;
+  }
+}

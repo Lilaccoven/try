@@ -1,0 +1,121 @@
+/* Body background with green color */
+body {
+  background-color: #C7E9C0; /* Green color */
+  font-family: 'Arial', sans-serif;
+  min-height: 100vh;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #ffffff;
+  padding: 20px 0;
+}
+
+.navbar-brand {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: #2d3e50;
+}
+
+.nav-link {
+  font-size: 18px;
+  color: #2d3e50;
+  padding: 8px 20px;
+}
+
+.nav-link:hover {
+  color: #FF7A00; /* Hover color */
+}
+
+/* Hero Section for About Me */
+section.container.my-5 {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Light shadow */
+  padding: 20px;
+  border: 5px dashed #C7E9C0; /* Broken line border with the new color */
+}
+
+/* About Me Section with border */
+.about-me-section {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Light shadow */
+  border: 3px dashed #C7E9C0; /* Broken line border with the new color */
+}
+
+/* Styling for the section header */
+.about-me-section h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  color: #FF7A00;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 2px dashed #C7E9C0; /* Broken line border with the new color */
+  border-radius: 8px;
+}
+
+/* Styling for the sub-headers (h4) */
+.about-me-section h4 {
+  font-size: 22px;
+  color: #2d3e50;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 2px dashed #C7E9C0; /* Broken line border with the new color */
+  border-radius: 8px;
+}
+
+/* Paragraph text */
+.about-me-section p {
+  font-size: 16px;
+  color: #2d3e50;
+  line-height: 1.6;
+  padding: 10px;
+  border: 2px dashed #C7E9C0; /* Broken line border with the new color */
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* List items */
+.about-me-section ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  padding: 10px;
+  border: 2px dashed #C7E9C0; /* Broken line border with the new color */
+  border-radius: 8px;
+}
+
+.about-me-section li {
+  font-size: 16px;
+  color: #2d3e50;
+  padding: 5px;
+}
+
+/* Footer */
+footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  font-size: 16px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #FF7A00;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .about-me-section h2 {
+    font-size: 24px;
+  }
+
+  .about-me-section p {
+    font-size: 14px;
+  }
+}
